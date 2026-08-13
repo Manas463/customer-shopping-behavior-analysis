@@ -1,0 +1,22 @@
+# Python virtual environment (large — never commit)
+.venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS / editor
+.DS_Store
+
+# Office lock/temp files
+~$*
+
+# Node
+node_modules/
+
+# Intermediate working files (not part of the final deliverable)
+presentation/gamma_slide_input.md
+presentation/slide_images/
+reports/Customer_Shopping_Behavior_Report.docx
+reports/Customer_Shopping_Behavior_Report_TEMPLATE.docx
