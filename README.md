@@ -6,6 +6,8 @@ An end-to-end data analytics project that takes a raw retail dataset from a CSV 
 
 ![Customer Behaviour Dashboard](assets/dashboard.png)
 
+**🔗 [Explore the live, interactive dashboard on Tableau Public →](https://public.tableau.com/app/profile/manas.jaiswal5915/viz/customer_behaviour_dashboard/Dashboard1)**
+
 ---
 
 ## Overview
@@ -53,6 +55,7 @@ customer-shopping-behavior-analysis/
 │   └── processed/      # cleaned dataset exported from the notebook
 ├── notebooks/          # 01_data_cleaning_eda.ipynb — cleaning + feature engineering
 ├── sql/                # customer_behavior_analysis.sql — 10 business-question queries
+├── powerbi/            # customer_behaviour_dashboard.twbx — the Tableau workbook (data bundled)
 ├── assets/             # dashboard screenshot
 ├── reports/            # full project report (with screenshots)
 ├── presentation/       # slide deck (.pptx and .pdf)

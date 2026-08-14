@@ -12,6 +12,11 @@ __pycache__/
 # Office lock/temp files
 ~$*
 
+# Tableau loose extract + lock files (the .twbx already bundles its own extract)
+*.hyper
+*.twbr
+.~*.twbr
+
 # Node
 node_modules/
 
@@ -20,3 +25,6 @@ presentation/gamma_slide_input.md
 presentation/slide_images/
 reports/Customer_Shopping_Behavior_Report.docx
 reports/Customer_Shopping_Behavior_Report_TEMPLATE.docx
+
+# Tableau publish duplicate
+customer_behaviour_dashboard_01.twbx
